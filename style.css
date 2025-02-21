@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+h5 {
+  color: red;
+  text-align: center;
+}
+
+html {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+body {
+    padding: 0 10px 10px 10px;
+    background-image: linear-gradient(white, black);
+    
+}
+
+
+
+
+
+
+#btn1 {
+    position: relative; top: 200px;
+}
+
+#btn2 {
+    position: relative; top: 200px;
+    margin-left: 700px;
+    margin-bottom: 500px;
+}

@@ -1,0 +1,44 @@
+<html>
+
+ <head>
+  <title>Калькулятор 6Д</title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ 
+ 
+ <body>
+  <h1>Калькулятор</h1>
+  <h5>Аникин Пётр 6Д</h5>
+
+  <label for="firstnumber">Первое Число</label>
+  
+  <input type="text" id="firstnumber" name="firstnumber"/>
+  
+  
+  
+
+  <label for="secondnumber">Второе Число</label>
+  
+  <input type="text" id="secondnumber" name="secondnumber"/>
+
+  <button onclick="PetyaCalc()" id="btn1">Сложить</button>
+
+  <button onclick="Vichet()" id="btn2">Вычесть</button>
+   
+  <script>
+   function PetyaCalc() {
+     let calcu = parseInt(firstnumber.value);
+     let calcu2 = parseInt(secondnumber.value);
+     alert(calcu + calcu2);
+
+
+     
+}
+   function Vichet() {
+     let vichetanie = parseInt(firstnumber.value);
+     let vichetanie2 = parseInt(secondnumber.value);
+     alert(vichetanie - vichetanie2);
+}    
+  </script>
+ </body>
+</html>
